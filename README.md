@@ -16,4 +16,4 @@ App to manage menstrual cycles and calculate PBAC score.
 * Menstrual Cup Support
 
 ## Sketch 
-<img src="Figures/sketch.jpg" width="400"/>
+<img src="Figures/sketch.jpg"/>
