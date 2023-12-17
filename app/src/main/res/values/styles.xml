@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+
+        <!-- Customize the Toolbar title text appearance -->
+        <item name="android:toolbarStyle">@style/CustomToolbarStyle</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:elevation">4dp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:fontFamily">sans-serif-black</item> <!-- Replace with your bold font -->
+        <item name="android:textSize">20sp</item> <!-- Set your desired text size -->
+        <item name="android:textColor">@android:color/white</item> <!-- Set your desired text color -->
+    </style>
+
+    <style name="RoundedRectangle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+</resources>

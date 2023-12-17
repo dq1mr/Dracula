@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+
+    <ImageView
+        android:id="@+id/referenceImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Toolbar"
+        android:scaleType="centerInside" />
+
+<!--    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/Toolbar"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="3">
+
+        &lt;!&ndash; Image 1 &ndash;&gt;
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Image 1"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1" />
+
+        &lt;!&ndash; Description 1 &ndash;&gt;
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:text="Description 1" />
+
+        &lt;!&ndash; Image 2 &ndash;&gt;
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Image 1"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1" />
+
+        &lt;!&ndash; Description 2 &ndash;&gt;
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:text="Description 1" />
+
+        &lt;!&ndash; Image 3 &ndash;&gt;
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Image 1"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1" />
+
+        &lt;!&ndash; Description 3 &ndash;&gt;
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:text="Description 1" />
+
+        &lt;!&ndash; Image 4 &ndash;&gt;
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Image 1"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1" />
+
+        &lt;!&ndash; Description 4 &ndash;&gt;
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:text="Description 1" />
+
+        &lt;!&ndash; Image 5 &ndash;&gt;
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Image 1"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1" />
+
+        &lt;!&ndash; Description 5 &ndash;&gt;
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:text="Description 1" />
+
+        &lt;!&ndash; Image 6 &ndash;&gt;
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Image 1"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1" />
+
+        &lt;!&ndash; Description 6 &ndash;&gt;
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_margin="8dp"
+            android:text="Description 1" />
+    </GridLayout>-->
+
+</RelativeLayout>
