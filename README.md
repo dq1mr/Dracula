@@ -4,6 +4,7 @@ App to manage menstrual cycles and calculate PBAC score.
 ## TODO
 * Fix PBAC Score
 * Fix Figures
+* Fix item addition
 * Fix Logs
 * Add Scrollable Menu Stop Screen
 * Add app icon
@@ -12,7 +13,7 @@ App to manage menstrual cycles and calculate PBAC score.
 * Edit Log
 * SAMANTA Survey
 * Health Surveys
-* Camera
+* Camera Support
 * Menstrual Cup Support
 
 ## Sketch 
